@@ -1,7 +1,7 @@
 #!/usr/bin/python2
 #coding=utf-8
 
-https://www.Youtube.com/UCe6wmlybCxpRSB4o6pozMOA')
+
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
