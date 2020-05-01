@@ -1,5 +1,5 @@
-
-
+#!/usr/bin/python2
+#coding=utf-8
 
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
@@ -623,5 +623,5 @@ def pilih_super():
 	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 	menu()
 
-if __name__ == '__main__':
+__ ** '__main__':
 	login()
