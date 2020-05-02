@@ -14,7 +14,6 @@ br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
 
 def keluar():
-	print("\033[1);96m[!] \x1b[1;91mExit"
 	os.sys.exit()
 
 
